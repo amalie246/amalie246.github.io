@@ -104,6 +104,10 @@ a{
     width: 80%;
 }
 
+.project > h4{
+    margin-left: 4px;
+}
+
 .dropdown{
     background-color: #F18C8E;
     max-height: 0;
@@ -118,12 +122,14 @@ a{
     padding: 1rem;
 }
 .dropdown-icon{
+    margin: 4px;
     width: 0;
     height: 0;
     border-top: 6px solid transparent;
     border-bottom: 6px solid transparent;
     border-left: 10px solid black;
-    transition: transform 2s ease-in;
+    transition: transform 0.3s ease-in;
+    cursor: pointer;
 }
 
 .dropdown-icon.rotated{
