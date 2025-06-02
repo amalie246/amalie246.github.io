@@ -1,8 +1,13 @@
-body{
+/* BASE */
+html, body{
     margin: 0;
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
+}
+
+a, p, h4, h3, h2, h1{
+    font-family: "Trebuchet MS";
 }
 
 #header{
@@ -28,8 +33,77 @@ body{
     height: 10vh;
     align-items: center;
     justify-content: space-around;
+    background-color: #C06C84;
 }
 
+#phone-img{
+    width: 10%;
+}
+
+/* ABOUT PAGE */
+
+/* PROJECTS PAGE */
+
+/* CONTACT PAGE */
+#contact-container{
+    width: 100vw;
+    outline: 2px solid yellow;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#profile-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 2px solid red;
+}
+
+#profile-img{
+    width: 60%;
+}
+
+#info-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#linkedin-btn{
+    background-color: #0077b5;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+}
+
+#linkedin-img{
+    margin: -10px 5px -10px -10px;
+    width: 30px;
+}
+
+#github-btn{
+    background-color: #666666;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 5px;
+}
+
+#github-img{
+    margin: 5px 0px 0px -1px;
+    width: 30px;
+}
+
+/* PHONE SIZES */
 @media (max-width: 600px) {
     #header {
         flex-direction: column;
@@ -39,5 +113,14 @@ body{
 
     #header > *{
         margin: 0;
+    }
+
+    #contact-container{
+        flex-direction: column;
+    }
+
+    #info-container{
+        justify-content: center;
+        align-items: center;
     }
 }

@@ -21,13 +21,14 @@ export function Application(){
                 <Link to={"/projects"}>Projects</Link>
                 <Link to={"/contact"}>Contact</Link>
             </nav>
+            <img src={"src/images/phone.png"} alt={"phone"} id={"phone-img"}/>
             <div className={"line"}></div>
 
             <Routes>
-                <Route path={"/"} element={<Home />}/>
+                <Route path={"/"} element={<Home/>}/>
                 <Route path={"/about"} element={<About/>}></Route>
-                <Route path={"/projects"} element={<Projects />}></Route>
-                <Route path={"/contact"} element={<Contact />}></Route>
+                <Route path={"/projects"} element={<Projects/>}></Route>
+                <Route path={"/contact"} element={<Contact/>}></Route>
             </Routes>
         </div>
     )
