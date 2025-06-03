@@ -10,7 +10,7 @@ export function Application(){
     return (
         <div>
             <div id={"header"}>
-                <h1>Amalie Nilsen</h1>
+                <h1 className={"header-text"}>Amalie Nilsen</h1>
                 <p className={"header-text"}>Portfolio</p>
                 {/*<p className={"header-text"}>text text text</p>*/}
             </div>

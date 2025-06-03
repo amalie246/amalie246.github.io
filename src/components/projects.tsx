@@ -12,7 +12,7 @@ export function Projects(){
     const projects = [{
         title: "Packaged Easier Access to API's (PEATA)",
         description:
-    "Software designed for non-technical people, for easier access to the TikTok Research API...",
+    "Software designed for non-technical people, for easier access to the TikTok Research API",
         link: "https://github.com/amalie246/PEATA"
         },{
         title: "Event Calendar (PG6301-Exam) [WILL BE PUBLIC SOON]",
@@ -44,7 +44,7 @@ export function Projects(){
 
                     <div className={`dropdown ${openDropdowns[index] ? "visible" : ""}`}>
                         <p>{project.description}</p>
-                        <button onClick={() => window.open(project.link, "_blank")}>
+                        <button onClick={() => window.open(project.link, "_blank")} className={"project-btn"}>
                             See code!
                         </button>
                     </div>
