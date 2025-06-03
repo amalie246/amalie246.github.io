@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import about from "../images/about.png";
-import home from "../images/home.png";
-import projects from "../images/projects.svg";
-import phone from "../images/phone.png";
+import about from "/images/about.png";
+import home from "/images/home.png";
+import projects from "/images/projects.svg";
+import phone from "/images/phone.png";
 
 export function Navigation(){
     const location = useLocation();

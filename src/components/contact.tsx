@@ -1,7 +1,7 @@
 import React from "react";
-import profile from "../images/profile.jpg";
-import linkedin from "../images/linkedin.png";
-import github from "../images/github.png";
+import profile from "/images/profile.jpg";
+import linkedin from "/images/linkedin.png";
+import github from "/images/github.png";
 
 export function Contact(){
     return (
