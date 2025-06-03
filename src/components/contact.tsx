@@ -1,4 +1,7 @@
 import React from "react";
+import profile from "../images/profile.jpg";
+import linkedin from "../images/linkedin.png";
+import github from "../images/github.png";
 
 export function Contact(){
     return (
@@ -6,7 +9,7 @@ export function Contact(){
 
                 <div id={"profile-container"}>
                     <h3>Want to get in touch?</h3>
-                    <img src={"src/images/profile.jpg"} alt={"profile"} id={"profile-img"} />
+                    <img src={profile} alt={"profile"} id={"profile-img"} />
                 </div>
 
                 <div id={"info-container"}>
@@ -14,11 +17,11 @@ export function Contact(){
 
                     <button id={"linkedin-btn"}
                             onClick={() => window.open("https://www.linkedin.com/in/amalie-nilsen-629289297/", "_blank")}>
-                        <img src={"src/images/linkedin.png"} alt={"Linkedin icon"} id={"linkedin-img"}/>
+                        <img src={linkedin} alt={"Linkedin icon"} id={"linkedin-img"}/>
                         Connect with me on LinkedIn
                     </button>
                     <button id={"github-btn"} onClick={() => window.open("https://github.com/amalie246", "_blank")}>
-                        <img src={"src/images/github.png"} alt={"Github icon"} id={"github-img"}/>
+                        <img src={github} alt={"Github icon"} id={"github-img"}/>
                         Check out my Github profile
                     </button>
 
