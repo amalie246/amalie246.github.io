@@ -110,6 +110,8 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-wrap{
@@ -297,10 +299,10 @@ a{
 @keyframes icon-popup{
     0% {
         opacity: 0;
-        transform: translateX(-50%) translateY(10px); /* start lower */
+        transform: translateX(-50%) translateY(10px);
     }
     100% {
         opacity: 1;
-        transform: translateX(-50%) translateY(0); /* end in place */
+        transform: translateX(-50%) translateY(0);
     }
 }
